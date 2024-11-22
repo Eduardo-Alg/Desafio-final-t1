@@ -1,0 +1,16 @@
+
+.post{
+    background-image:url("../../assets/banner.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:88vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    color:#FFFFFF;
+    h2{
+        width:27vw;
+        margin-left:130px;
+        font-size:40px;
+    }
+}
