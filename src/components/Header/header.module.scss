@@ -10,16 +10,22 @@ header{
 }
 
     .boxLogo{
-        padding-left:10px;
+        padding-left:15px;
         display:flex;
         align-items:end;
         justify-content:space-evenly;
-        width:20%;
+        width:24%;
         color:#FFFFFF;
         
         img{
+            padding-right:5px;
+             width:55px;
+        }
+        h1{
+            font-size:27px;
+            color:rgba(255, 255, 255, 1);
 
-             width:45px;
+
         }
     }
 
@@ -31,7 +37,9 @@ header{
             display:flex;
             justify-content:space-around;
             a{
-                color:#FFFFFF;
+                font-size:20px;
+                color: rgba(255, 255, 255, 1);
+
             }
         }
     }
@@ -56,9 +64,12 @@ header{
             color:#FFFFFF;
         }
         label{
+            position:relative;
+            right:10%;
+
         img{
             position:relative;
-            right:30%;
+            right:0;
             top:33%;
             width:17px;
             height:17px;
