@@ -71,3 +71,96 @@ section{
 }
 
 }
+
+@media(min-width:250px) and (max-width:400px){
+    .menuCadastro{
+        section{
+            width:80%;
+            h3{
+                text-align: center;
+                font-size: 5vw;
+            }
+        }
+    
+        .boxInput{
+            width:90%;
+            div{
+                width:100%;
+                justify-content:center;
+                gap:10px;
+                img{
+                    width:16vw;
+                }
+                h2{
+                    font-size:5vw;
+                }
+              
+            }
+            form{
+                width:100%;
+                input{
+                    width:60%;
+                }
+                button{
+                    width:40%;
+                }
+            }
+        }
+    }
+}
+@media(min-width:400px) and (max-width:850px){
+    .menuCadastro{
+        section{
+            width:80%;
+            h3{
+                text-align: center;
+                font-size: 3.5vw;
+            }
+        }
+    
+        .boxInput{
+            width:90%;
+            div{
+                width:100%;
+                justify-content:center;
+                gap:10px;
+                img{
+                    width:8vw;
+                }
+                h2{
+                    font-size:4vw;
+                }
+              
+            }
+            form{
+                width:80%;
+                input{
+                    width:60%;
+                }
+                button{
+                    width:30%;
+                }
+            }
+        }
+    }
+}
+@media(min-width:850px) and (max-width:1150px){
+    .menuCadastro{
+    .boxInput{
+        width:40%;
+        div{
+            width:30vw;
+            gap:20px;
+        h2{
+            font-size:18px;
+        }
+    }
+    form{
+        width:60%;
+        input{
+            width:100%;
+        }
+    }
+    }
+}
+}

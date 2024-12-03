@@ -53,9 +53,13 @@
         justify-content:space-around;
         align-items:center;
         height:20vh;
-        padding:10px 50px 5px 50px;
+        padding:10px 10px 10px 10px;
         nav{
-        width:70%;
+        align-items:center;
+        justify-content:center;
+        width:80%;
+        gap:8%;
+       
       }
       
       }
@@ -71,7 +75,7 @@
     }
 }
 
-@media(min-width:800px) and (max-width:1110px){
+@media(min-width:750px) and (max-width:1150px){
     .boxFooter{
         .boxContatos{
         nav{

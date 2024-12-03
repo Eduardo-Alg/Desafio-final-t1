@@ -58,7 +58,7 @@ main{
 }
 }
 
-@media(min-width:250px) and (max-width:450px){
+@media(min-width:200px) and (max-width:299px){
 
     .areaInicio{
         height:280vh;
@@ -67,46 +67,92 @@ main{
             background-size:auto;
             justify-content:center;
             height:55vh;
+            
             h2{
                 width:80vw;
                 margin-left:0;
                 font-size:25px;
                 text-align:center;
+            } 
+        }
+         .devoDoar{
+            div{
+                height:15vh;
+                justify-content:center;
+                h2{
+                    font-size:9vw;
+                    margin-left:0;
+                }
             }
         }
-        section{
-            flex-direction:column;
-        }
+        
         .boxCard{
             gap:7%;
+            flex-direction:column;
+
             article{
                 width:80vw;
                 height:80vh;
                 padding:25px 0 25px 0;
                 gap:15px;
+                p{
+                    font-size:6.5vw;
+                }
             }
         }
-        .devoDoar{
+       
+    }
+}
+
+@media(min-width:300px) and (max-width:399px){
+    .areaInicio{
+        height:300vh;
+        .banner{
+            background-image:url("../../assets/segundobanner.png");
+            background-size:auto;
+            justify-content:center;
+            height:55vh;
+            
+            h2{
+                width:80vw;
+                margin-left:0;
+                font-size:25px;
+                text-align:center;
+            } 
+        }
+         .devoDoar{
             div{
+                height:15vh;
                 justify-content:center;
                 h2{
+                    font-size:9vw;
                     margin-left:0;
                 }
             }
         }
+        
+        .boxCard{
+            gap:7%;
+            flex-direction:column;
+
+            article{
+                width:80vw;
+                height:80vh;
+                padding:25px 0 25px 0;
+                gap:15px;
+                p{
+                    font-size:6.5vw;
+                }
+            }
+        }
+       
     }
+
 }
 
-@media(min-width:400px) and (max-width:450px){
-    .areaInicio{
-        height:260vh;
-    .banner{
-        background-size:cover;
-    }
-}
-}
 
-@media(min-width:450px) and (max-width:800px){
+
+@media(min-width:400px) and (max-width:800px){
     .areaInicio{
         height:240vh;
     .banner{
@@ -134,7 +180,7 @@ main{
         width: 45vw;
         height: 60vh;
         p{
-            font-size:18px;
+            font-size:16px;
         }
         }
     }

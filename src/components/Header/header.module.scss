@@ -170,12 +170,12 @@ header{
                 display: flex;
                 justify-content: end;
                 input{
-                    padding-left:0;
-                    width: 32vw;
+                    padding-left:2%;
+                    width: 30vw;
                 }
                 input::placeholder{
                     padding-left:4%;
-                    font-size:12px;
+                    font-size:2vw;
                 }
                 label{
                     right:5%;
@@ -186,7 +186,7 @@ header{
     }
 
 }
-@media(min-width:800px) and (max-width:1110px){
+@media(min-width:800px) and (max-width:1150px){
     header{
         .boxLogo{
          width:auto;
@@ -209,11 +209,11 @@ header{
         .boxInput{
             width:auto;
             input{
-            width:20vw;
-            padding-left:15px;
+            width:22vw;
+            padding-left:5%;
             }
             input::placeholder{
-                font-size:17px;
+                font-size:1.7vw;
             }
             label{
                 right:13%;

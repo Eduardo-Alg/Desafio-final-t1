@@ -24,3 +24,33 @@
         }
     }
 }
+
+@media(min-width:250px) and (max-width:449px){
+    .doadosPage{
+        .areaDoados{
+         width: 70%;
+         margin-left: 15%;
+         img{
+            width:auto;
+         }
+         p{
+            width:60%;
+         }
+        }
+    }
+}
+@media(min-width:450px) and (max-width:850px){
+    .doadosPage{
+        .areaDoados{
+         width: 50%;
+         margin-left: 25%;
+         img{
+            width:auto;
+         }
+         p{
+            font-size:2.5vw;
+            width:80%;
+         }
+        }
+    }
+}
