@@ -43,3 +43,40 @@
     }
 
 }
+
+@media(min-width:250px) and (max-width:750px){
+    .boxFooter{
+        
+      .boxContatos{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-around;
+        align-items:center;
+        height:20vh;
+        padding:10px 50px 5px 50px;
+        nav{
+        width:70%;
+      }
+      
+      }
+    .direitosReservados{
+        height:10vh;
+        text-align:center;
+        p{
+         font-size:12px;
+        }
+      }
+    
+        
+    }
+}
+
+@media(min-width:800px) and (max-width:1110px){
+    .boxFooter{
+        .boxContatos{
+        nav{
+            width:25vw;
+        }
+    }
+    }
+}

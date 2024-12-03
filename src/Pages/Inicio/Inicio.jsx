@@ -5,9 +5,10 @@ import balanca from "../../assets/balanca.png"
 import comunidade from "../../assets/comunidade.png"
 import transform from "../../assets/transform.png"
 
+
 export default function Inicio(){
     return(
-        <main>
+        <main className={S.areaInicio}>
         <section>
             <section className={S.banner}>
 
@@ -38,5 +39,6 @@ export default function Inicio(){
         </section>
         </section>
         </main>
+        
     )
 }

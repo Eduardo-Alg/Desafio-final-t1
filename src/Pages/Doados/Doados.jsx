@@ -1,7 +1,18 @@
+import livroDoado from "../../assets/livroDoado.png"
+import S from "../../Pages/Doados/doados.module.scss"
+
 export default function Doados(){
     return(
-        <section>
-            <h2>Doados</h2>
+        <section className={S.doadosPage}>
+            <h3>Livros Doados</h3>
+            <article className={S.areaDoados}>
+                <img src={livroDoado} alt="Livro Doado" />
+                <p>
+                O protagonista
+                Susanne Andrade
+                Ficção
+                </p>
+            </article>
         </section>
     )
 }

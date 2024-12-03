@@ -6,6 +6,7 @@ import "./global.scss"
 export default function App(){
   return(
     <>
+    
     <Header/>
     <Footer/>
     </>

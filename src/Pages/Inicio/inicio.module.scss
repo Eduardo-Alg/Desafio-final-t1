@@ -57,3 +57,108 @@ main{
     }
 }
 }
+
+@media(min-width:250px) and (max-width:450px){
+
+    .areaInicio{
+        height:280vh;
+        .banner{
+            background-image:url("../../assets/segundobanner.png");
+            background-size:auto;
+            justify-content:center;
+            height:55vh;
+            h2{
+                width:80vw;
+                margin-left:0;
+                font-size:25px;
+                text-align:center;
+            }
+        }
+        section{
+            flex-direction:column;
+        }
+        .boxCard{
+            gap:7%;
+            article{
+                width:80vw;
+                height:80vh;
+                padding:25px 0 25px 0;
+                gap:15px;
+            }
+        }
+        .devoDoar{
+            div{
+                justify-content:center;
+                h2{
+                    margin-left:0;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:400px) and (max-width:450px){
+    .areaInicio{
+        height:260vh;
+    .banner{
+        background-size:cover;
+    }
+}
+}
+
+@media(min-width:450px) and (max-width:800px){
+    .areaInicio{
+        height:240vh;
+    .banner{
+        background-image:url("../../assets/segundobanner.png");
+        background-size:cover;
+        h2{
+            width:auto;
+            margin-left:50px;
+            font-size:30px;
+        }
+    }
+    .devoDoar{
+        div{
+            justify-content:center;
+            h2{
+                margin-left:0;
+            }
+        }
+    }
+    .boxCard{
+        flex-wrap: wrap;
+        gap:15px;
+        article{
+        justify-content:space-evenly;
+        width: 45vw;
+        height: 60vh;
+        p{
+            font-size:18px;
+        }
+        }
+    }
+}
+}
+@media(min-width:800px) and (max-width:1110px){
+    .areaInicio{
+        height:220vh;
+    .banner{
+      h2{
+        width:55vw;
+      }
+    }
+    .devoDoar{
+        div{
+            justify-content:center;
+        }
+    }
+    .boxCard{
+        flex-wrap:wrap;
+        gap:30px;
+        article{
+            width:35%;
+        }
+    }
+}
+}
